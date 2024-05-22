@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-01-chat
+
+  ai:
+    openai:
+      api-key: sk-LxDGXJ64QjBt9Ldi5cE41a7187E740188d965b954a48F376
+      base-url: http://gtapi.xiaoerchaoren.com:8930
+      chat:
+        options:
+          model: gpt-3.5-turbo
+          temperature: 0.4F
+
